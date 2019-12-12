@@ -232,16 +232,47 @@ img {
 
 i {
   color: rgb(77, 77, 77);
-  margin: 0;
-  background-color: lightgray;
-  height: 35px;
-  width: 35px;
+  width: 37px;
   display: inline-block;
   text-align: center;
-  position: relative;
-  top: 3px;
 }
 
 label {
   color: white;
+}
+
+.box {
+  margin-top: 3px;
+  background-color: lightgray;
+  height: 37px;
+  width: 37px;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.fa-user {
+  position: absolute;
+  top: 25.5%;
+}
+
+.fa-at {
+  position: absolute;
+  top: 44%;
+}
+
+.fa-birthday-cake {
+  position: absolute;
+  top: 44%;
+}
+
+.fa-phone-alt {
+  position: absolute;
+  top: 62.5%;
+}
+
+.fa-car-alt {
+  position: absolute;
+  top: 62.5%;
 }
